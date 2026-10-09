@@ -112,3 +112,5 @@ fun MainScreen() {
     }
 }
 
+@Composable
+fun ProfileCard(data: ProfileData, modifier: Modifier = Modifier) {
