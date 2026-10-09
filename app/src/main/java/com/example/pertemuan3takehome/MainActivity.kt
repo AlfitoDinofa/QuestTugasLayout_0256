@@ -150,3 +150,15 @@ fun ProfileCard(data: ProfileData, modifier: Modifier = Modifier) {
                     )
                 }
 
+                Text(
+                    text = stringResource(data.address),
+                    color = colorResource(R.color.text_address),
+                    fontSize = dimensionResource(R.dimen.text_size_info).value.sp
+                )
+            }
+
+            CardLogo()
+        }
+    }
+}
+
