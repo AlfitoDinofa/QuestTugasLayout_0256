@@ -142,3 +142,11 @@ fun ProfileCard(data: ProfileData, modifier: Modifier = Modifier) {
                     fontFamily = if (data.isCursive) FontFamily.Cursive else FontFamily.Default
                 )
 
+                data.phone?.let { phoneRes ->
+                    Text(
+                        text = stringResource(phoneRes),
+                        color = colorResource(R.color.text_phone),
+                        fontSize = dimensionResource(R.dimen.text_size_info).value.sp
+                    )
+                }
+
