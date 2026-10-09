@@ -133,3 +133,12 @@ fun ProfileCard(data: ProfileData, modifier: Modifier = Modifier) {
                     .padding(horizontal = dimensionResource(R.dimen.card_content_padding)),
                 verticalArrangement = Arrangement.spacedBy(dimensionResource(R.dimen.text_spacing))
             ) {
+                Text(
+                    text = stringResource(data.name),
+                    color = colorResource(R.color.text_white),
+                    fontSize = dimensionResource(R.dimen.text_size_name).value.sp,
+                    fontWeight = if (data.isCursive) FontWeight.Normal else FontWeight.Bold,
+                    fontStyle = if (data.isCursive) FontStyle.Italic else FontStyle.Normal,
+                    fontFamily = if (data.isCursive) FontFamily.Cursive else FontFamily.Default
+                )
+
