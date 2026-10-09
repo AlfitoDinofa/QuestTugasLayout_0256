@@ -42,3 +42,10 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun MainScreen() {
+    val profiles = listOf(
+        ProfileData(
+            name = R.string.name_bambang,
+            address = R.string.address_bambang,
+            cardColor = R.color.card_gray,
+            isCursive = true
+        ),
