@@ -104,3 +104,11 @@ fun MainScreen() {
             }
         }
 
+        Text(
+            text = stringResource(R.string.footer_copyright),
+            color = colorResource(R.color.text_dark),
+            fontSize = dimensionResource(R.dimen.text_size_footer).value.sp
+        )
+    }
+}
+
