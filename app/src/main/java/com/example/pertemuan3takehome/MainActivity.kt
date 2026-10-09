@@ -118,3 +118,10 @@ fun ProfileCard(data: ProfileData, modifier: Modifier = Modifier) {
         modifier = modifier.fillMaxWidth(),
         shape = RoundedCornerShape(dimensionResource(R.dimen.card_corner)),
         colors = CardDefaults.cardColors(containerColor = colorResource(data.cardColor))
+    ) {
+        Row(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(dimensionResource(R.dimen.card_padding)),
+            verticalAlignment = Alignment.CenterVertically
+        ) {
