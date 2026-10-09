@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Tugas 3 Composable Layout</string>
+
+    <!-- Header -->
+    <string name="title_main">Teknologi Informasi</string>
+    <string name="subtitle_main">Universitas Muhammadiyah Yogyakarta</string>
+    <string name="footer_copyright">Copyright, 2026</string>
+
+    <!-- Deskripsi gambar -->
+    <string name="cd_logo_umy">Logo Universitas Muhammadiyah Yogyakarta</string>
+
+    <!-- Data Card 1 -->
+    <string name="name_bambang">Alfito Dinofa</string>
+    <string name="address_bambang">Pontianak, Kalimantan Barat</string>
+
+    <!-- Data Card 2 -->
+    <string name="name_gibran">Alfito Dinofa</string>
+    <string name="phone_gibran">0888872632</string>
+    <string name="address_gibran">Kasihan, Bantul</string>
+
+    <!-- Data Card 3 -->
+    <string name="name_zhilal">Alfito Dinofa</string>
+    <string name="phone_zhilal">085436874190</string>
+    <string name="address_zhilal">Depok, Sleman</string>
+
+    <!-- Data Card 4 -->
+    <string name="name_ahmad">Alfito Dinofa</string>
+    <string name="phone_ahmad">085436874190</string>
+    <string name="address_ahmad">Gamping, Sleman</string>
+</resources>
