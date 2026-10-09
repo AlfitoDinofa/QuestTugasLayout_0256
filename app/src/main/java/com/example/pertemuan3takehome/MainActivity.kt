@@ -162,3 +162,5 @@ fun ProfileCard(data: ProfileData, modifier: Modifier = Modifier) {
     }
 }
 
+@Composable
+private fun CardLogo() {
