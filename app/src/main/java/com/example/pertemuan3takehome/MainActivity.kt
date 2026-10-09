@@ -49,3 +49,9 @@ fun MainScreen() {
             cardColor = R.color.card_gray,
             isCursive = true
         ),
+        ProfileData(
+            name = R.string.name_gibran,
+            phone = R.string.phone_gibran,
+            address = R.string.address_gibran,
+            cardColor = R.color.card_purple
+        ),
