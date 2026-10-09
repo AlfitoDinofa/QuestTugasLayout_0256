@@ -55,3 +55,9 @@ fun MainScreen() {
             address = R.string.address_gibran,
             cardColor = R.color.card_purple
         ),
+        ProfileData(
+            name = R.string.name_zhilal,
+            phone = R.string.phone_zhilal,
+            address = R.string.address_zhilal,
+            cardColor = R.color.card_blue
+        ),
