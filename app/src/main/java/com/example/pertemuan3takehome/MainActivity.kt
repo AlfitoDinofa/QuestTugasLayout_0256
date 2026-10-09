@@ -114,3 +114,7 @@ fun MainScreen() {
 
 @Composable
 fun ProfileCard(data: ProfileData, modifier: Modifier = Modifier) {
+    Card(
+        modifier = modifier.fillMaxWidth(),
+        shape = RoundedCornerShape(dimensionResource(R.dimen.card_corner)),
+        colors = CardDefaults.cardColors(containerColor = colorResource(data.cardColor))
