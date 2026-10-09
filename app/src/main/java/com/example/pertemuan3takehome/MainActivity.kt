@@ -164,3 +164,9 @@ fun ProfileCard(data: ProfileData, modifier: Modifier = Modifier) {
 
 @Composable
 private fun CardLogo() {
+    Image(
+        painter = painterResource(R.drawable.logo_umy),
+        contentDescription = stringResource(R.string.cd_logo_umy),
+        modifier = Modifier.size(dimensionResource(R.dimen.card_logo_size))
+    )
+}
