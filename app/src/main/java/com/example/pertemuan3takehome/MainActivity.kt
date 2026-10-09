@@ -95,3 +95,12 @@ fun MainScreen() {
 
         Spacer(modifier = Modifier.height(dimensionResource(R.dimen.header_bottom_space)))
 
+        Column(
+            modifier = Modifier.weight(1f),
+            verticalArrangement = Arrangement.spacedBy(dimensionResource(R.dimen.card_spacing))
+        ) {
+            profiles.forEach { profile ->
+                ProfileCard(data = profile)
+            }
+        }
+
